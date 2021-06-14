@@ -1,11 +1,14 @@
 :root {
-    color1: #63474D;
-    color2: #aa767c;
-    color3: #D6A184;
-    color4: #FFA686;
-    color5: #FEC196;
+    --color1: #63474D;
+    --color2: #aa767c;
+    --color3: #D6A184;
+    --color4: #FFA686;
+    --color5: #FEC196;
 }
 
+body {
+    background-color: bisque;
+}
 header {
     display: flex;
     justify-content: flex-end;
@@ -18,10 +21,28 @@ section{
     display: flex;
     flex-direction: column; 
     text-align: center;
+    margin: 200px;
     
 }
 
-.other-apps {
-    display: inline-flex;
+.content-section {
+    background-color: var(--color3);
+    border-radius: 10px;
 }
 
+.projects {
+    display: inline-block;
+}
+
+.second-app {
+    flex: 2;
+}
+
+.other-apps {
+    display: inline-flex; 
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
