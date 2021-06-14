@@ -1,5 +1,27 @@
+:root {
+    color1: #63474D;
+    color2: #aa767c;
+    color3: #D6A184;
+    color4: #FFA686;
+    color5: #FEC196;
+}
+
 header {
     display: flex;
     justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    
+}
+
+.other-apps {
+    display: inline-flex;
 }
 
