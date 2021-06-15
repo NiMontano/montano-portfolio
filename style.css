@@ -49,20 +49,24 @@ section {
     padding: 0 30px;
 }
 
-.other-apps {
+.other-apps, .contact-links {
     display: flex; 
     flex-wrap: wrap;
     padding: 0px 30px;
     margin-top: 0;
 }
 
-.other-apps li {
+/*.other-apps*/ li {
     width: 50%;
     /*margin-bottom: 2%;
     flex-shrink: 1;*/
 }
 
 .other-apps li:nth-child(3n) {
+    width: 100%;
+}
+
+.contact-links li:nth-child(3n-2) {
     width: 100%;
 }
 
@@ -75,4 +79,16 @@ img:hover {
     outline: 10px solid var(--color2);
     outline-offset: -10px;
     opacity: 1;
+}
+
+span[data-descr]:hover::before {
+    content: attr(data-descr);
+    position: absolute;
+    min-width: 200px;
+    background-color: var(--color2);
+    padding: 12px;
+    color: #fff;
+    font-size: 80%;
+    margin-left: 9%;
+    margin-top: 6%;
 }
