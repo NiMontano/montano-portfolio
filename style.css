@@ -47,7 +47,7 @@ section {
     
 }
 
-#welcome-section {
+.content-section {
     background-color: var(--color3);
     border-radius: 10px;
     margin: 15px;
@@ -55,7 +55,7 @@ section {
     height: 100vh;
 }
 
-#welcome-section img {
+.content-section img {
     opacity: 0.75;
 }
 
