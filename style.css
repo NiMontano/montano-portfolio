@@ -47,12 +47,15 @@ section {
     
 }
 
+#welcome-section {
+    height: 100%;
+}
+    
 .content-section {
     background-color: var(--color3);
     border-radius: 10px;
     margin: 15px;
     padding: 20px;
-    height: 100vh;
 }
 
 .content-section img {
