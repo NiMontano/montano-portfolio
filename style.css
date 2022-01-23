@@ -47,20 +47,18 @@ section {
     
 }
 
-.content-section {
+#welcome-section {
     background-color: var(--color3);
     border-radius: 10px;
     margin: 15px;
     padding: 20px;
+    height: 100vh;
 }
 
-.content-section img {
+#welcome-section img {
     opacity: 0.75;
 }
 
-#welcome-section {
-    height: 100vh;
-}
 .project-tile {
     padding: 0 30px;
 }
