@@ -58,6 +58,9 @@ section {
     opacity: 0.75;
 }
 
+#welcome-section {
+    height: 100vh;
+}
 .project-tile {
     padding: 0 30px;
 }
