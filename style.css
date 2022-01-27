@@ -18,6 +18,7 @@ header {
     top: 0;
     height:10%;
     width: 100%;
+    background-image: url(profile-photo.jpg);
     background-repeat: no-repeat;
     background-color: rgb(250, 245, 241);
     background-size: contain;
