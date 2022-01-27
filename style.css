@@ -10,7 +10,7 @@ body {
     background-color: bisque;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header {
+nav {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
